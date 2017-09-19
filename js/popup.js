@@ -8,6 +8,5 @@
 var textarea = document.querySelector('textarea');
 textarea.value = localStorage.note || ""
 textarea.addEventListener('keyup', () => {
-  console.log("save",textarea.value)
   localStorage.note = textarea.value
 })
