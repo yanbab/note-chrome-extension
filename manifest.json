@@ -3,7 +3,9 @@
     "name": "Note chrome extension",
     "description": "Simple note taking popup",
     "version": "1.0",
-    "icons": { "48": "icon.png" },
+    "icons": {
+      "128": "icon.png"
+    },
     "browser_action": {
         "default_popup": "popup.html"
     }
